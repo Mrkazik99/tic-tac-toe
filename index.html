@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <script src="script.js"></script>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="startGame();">
+        <div class="container">
+            <p id="notification"></p>
+            <div id="game">
+                <div class="game__cell" id="0:0"></div>
+                <div class="game__cell" id="0:1"></div>
+                <div class="game__cell" id="0:2"></div>
+                <div class="game__cell" id="1:0"></div>
+                <div class="game__cell" id="1:1"></div>
+                <div class="game__cell" id="1:2"></div>
+                <div class="game__cell" id="2:0"></div>
+                <div class="game__cell" id="2:1"></div>
+                <div class="game__cell" id="2:2"></div>
+            </div>
+            <button class="reset_button" type="button" onclick="restartGame();">Reset</button>
+        </div>
+    </body>
+</html>
