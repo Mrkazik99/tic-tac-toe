@@ -62,7 +62,7 @@ function draw() {
 }
 
 function endGame() {
-    $('.game_cell').each(function() {
+    $('.game__cell').each(function() {
         $(this).unbind();
     });
     gameActive = false;
